@@ -4,15 +4,22 @@ from datetime import datetime
 import os
 
 # Load model and tokenizer
-model = GPT2LMHeadModel.from_pretrained("trained-gpt2").cuda()
-tokenizer = GPT2Tokenizer.from_pretrained("trained-gpt2")
+model = GPT2LMHeadModel.from_pretrained("trained-gpt2-instruct").cuda()
+tokenizer = GPT2Tokenizer.from_pretrained("trained-gpt2-instruct")
 model.eval()
 
 # Prompt user
-prompt = input("Enter a prompt: ")
+prompt = input("What would you like to know about to kill a mocking bird? ")
 
-# Tokenize with attention mask
-inputs = tokenizer(prompt, return_tensors="pt", padding=True).to("cuda")
+formatted = f"""### Instruction:
+{prompt}
+
+### Input:
+
+### Response:"""
+print(formatted)
+inputs = tokenizer(formatted, return_tensors="pt", padding=False, truncation=False).to("cuda")
+
 
 # Generate
 with torch.no_grad():
@@ -24,10 +31,12 @@ with torch.no_grad():
         temperature=0.8,
         top_k=50,
         top_p=0.95,
-        pad_token_id=tokenizer.eos_token_id
+        pad_token_id=tokenizer.eos_token_id,
+        eos_token_id=tokenizer.eos_token_id
     )
 
 # Decode
+print(output)
 generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
 print(generated_text)
 

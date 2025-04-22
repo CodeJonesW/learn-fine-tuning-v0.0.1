@@ -1,0 +1,316 @@
+### Instruction:
+What is the name of the narrator in *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+The narrator is Jean Louise Finch, who is nicknamed Scout.
+
+---
+
+### Instruction:
+What is the name of Scout’s brother?
+
+### Input:
+
+### Response:
+Scout’s brother is Jeremy Finch, known as Jem.
+
+---
+
+### Instruction:
+Who is the mysterious neighbor that fascinates Scout and Jem?
+
+### Input:
+
+### Response:
+Boo Radley, whose real name is Arthur Radley, is the reclusive and mysterious neighbor.
+
+---
+
+### Instruction:
+What does Atticus Finch do for a living?
+
+### Input:
+
+### Response:
+Atticus Finch is a lawyer in the town of Maycomb, Alabama.
+
+---
+
+### Instruction:
+Who is Tom Robinson?
+
+### Input:
+
+### Response:
+Tom Robinson is a Black man falsely accused of raping a white woman, Mayella Ewell. He is defended by Atticus Finch.
+
+---
+
+### Instruction:
+Who accuses Tom Robinson of a crime?
+
+### Input:
+
+### Response:
+Mayella Ewell and her father, Bob Ewell, accuse Tom Robinson of raping her.
+
+---
+
+### Instruction:
+What does the mockingbird symbolize in the novel?
+
+### Input:
+
+### Response:
+The mockingbird symbolizes innocence and the idea of doing no harm. It represents characters like Tom Robinson and Boo Radley.
+
+---
+
+### Instruction:
+Why is it a sin to kill a mockingbird?
+
+### Input:
+
+### Response:
+Atticus explains that it’s a sin to kill a mockingbird because they don’t do anything but make music and bring joy — they don’t harm anyone.
+
+---
+
+### Instruction:
+How does Scout’s view of Boo Radley change by the end of the novel?
+
+### Input:
+
+### Response:
+By the end of the novel, Scout sees Boo Radley not as a monster, but as a kind and protective figure. She understands the importance of empathy and seeing the world from another’s perspective.
+
+---
+
+### Instruction:
+What lesson does Atticus try to teach his children?
+
+### Input:
+
+### Response:
+Atticus teaches his children the importance of empathy, justice, and standing up for what is right, even when it’s difficult.
+
+---
+
+### Instruction:
+Who saves Scout and Jem from Bob Ewell?
+
+### Input:
+
+### Response:
+Boo Radley saves Scout and Jem from Bob Ewell’s attack.
+
+---
+
+### Instruction:
+What does Scout dress up as for the Halloween pageant?
+
+### Input:
+
+### Response:
+Scout dresses up as a ham in the school’s Halloween pageant.
+
+---
+
+### Instruction:
+What is the verdict in Tom Robinson’s trial?
+
+### Input:
+
+### Response:
+Despite evidence proving his innocence, Tom Robinson is found guilty by an all-white jury.
+
+---
+
+### Instruction:
+What happens to Tom Robinson after the trial?
+
+### Input:
+
+### Response:
+Tom Robinson tries to escape from prison and is shot and killed.
+
+---
+
+### Instruction:
+What is Calpurnia’s role in the Finch household?
+
+### Input:
+
+### Response:
+Calpurnia is the Finch family’s cook and caretaker. She serves as a maternal figure for Scout and Jem.
+
+---
+
+### Instruction:
+What does Atticus say about courage?
+
+### Input:
+
+### Response:
+Atticus teaches that real courage is knowing you’re licked before you begin, but beginning anyway and seeing it through no matter what.
+
+---
+
+### Instruction:
+Who is Miss Maudie?
+
+### Input:
+
+### Response:
+Miss Maudie is a kind, open-minded neighbor who offers Scout wisdom and support. She respects Atticus and shares his values.
+
+---
+
+### Instruction:
+How does the community react to Atticus defending Tom Robinson?
+
+### Input:
+
+### Response:
+Many in the white community criticize and insult Atticus for defending Tom, but others quietly respect his integrity.
+
+---
+
+### Instruction:
+What does Scout learn from walking Boo Radley home?
+
+### Input:
+
+### Response:
+Scout learns the value of empathy — seeing the world through another person’s eyes — by imagining life from Boo’s perspective.
+
+---
+
+### Instruction:
+Why has *To Kill a Mockingbird* been banned in some schools?
+
+### Input:
+
+### Response:
+The novel has been banned in some schools due to its use of racial slurs and its candid portrayal of racism and injustice.
+
+### Instruction:
+Who wrote *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+*To Kill a Mockingbird* was written by Harper Lee.
+
+---
+
+### Instruction:
+What award did *To Kill a Mockingbird* win?
+
+### Input:
+
+### Response:
+It won the Pulitzer Prize for Fiction in 1961, just one year after it was published.
+
+---
+
+### Instruction:
+Was *To Kill a Mockingbird* Harper Lee’s only book?
+
+### Input:
+
+### Response:
+Yes, for over 50 years it was her only published novel, until *Go Set a Watchman* was released in 2015.
+
+---
+
+### Instruction:
+What time period does *To Kill a Mockingbird* take place in?
+
+### Input:
+
+### Response:
+The novel is set during the Great Depression, in the 1930s.
+
+---
+
+### Instruction:
+Where is *To Kill a Mockingbird* set?
+
+### Input:
+
+### Response:
+The story takes place in the fictional town of Maycomb, Alabama, which is based on Harper Lee's hometown of Monroeville.
+
+---
+
+### Instruction:
+Who is Atticus Finch based on?
+
+### Input:
+
+### Response:
+Atticus Finch was inspired by Harper Lee’s father, Amasa Coleman Lee, who was a lawyer that once defended two Black men accused of murder.
+
+---
+
+### Instruction:
+What are the major themes in *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+The novel explores themes such as racial injustice, moral growth, empathy, and the loss of innocence.
+
+---
+
+### Instruction:
+Who inspired the character Dill Harris?
+
+### Input:
+
+### Response:
+Dill was based on Harper Lee’s childhood friend Truman Capote, author of *In Cold Blood*.
+
+---
+
+### Instruction:
+Was *To Kill a Mockingbird* accepted by publishers right away?
+
+### Input:
+
+### Response:
+No. The manuscript was initially rejected. One editor said it felt more like a series of anecdotes than a finished novel.
+
+---
+
+### Instruction:
+Why is Atticus Finch considered an iconic literary figure?
+
+### Input:
+
+### Response:
+Atticus Finch is widely regarded as a symbol of moral integrity and quiet courage. He’s often ranked among the greatest fictional heroes.
+
+### Instruction:
+What are the main characters' names and where are they from?
+
+### Input:
+
+### Response:
+The main characters in *To Kill a Mockingbird* include:
+- **Scout Finch (Jean Louise Finch)** – the young narrator of the story.
+- **Jem Finch (Jeremy Finch)** – Scout's older brother.
+- **Atticus Finch** – their father, a lawyer.
+- **Calpurnia** – the Finch family's cook and caretaker.
+- **Dill Harris** – a friend of Scout and Jem, based on Truman Capote.
+- **Boo Radley (Arthur Radley)** – the mysterious neighbor.
+- **Tom Robinson** – the Black man falsely accused of a crime.
+- **Bob Ewell** – the main antagonist who accuses Tom Robinson.
+- **Mayella Ewell** – Bob Ewell's daughter.
+
+They all live in **Maycomb, Alabama**, a fictional town based on Harper Lee's hometown of Monroeville.
+
+---
