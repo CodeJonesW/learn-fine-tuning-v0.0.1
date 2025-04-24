@@ -4,20 +4,22 @@ from datetime import datetime
 import os
 
 # Load model and tokenizer
-model = GPT2LMHeadModel.from_pretrained("trained-gpt2-instruct").cuda()
-tokenizer = GPT2Tokenizer.from_pretrained("trained-gpt2-instruct")
+model = GPT2LMHeadModel.from_pretrained("gpt2").cuda()
+tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 model.eval()
 
 # Prompt user
-prompt = input("What would you like to know about to kill a mocking bird? ")
+prompt = "What is the name of the narrator in *To Kill a Mockingbird*?"
 
-formatted = f"""### Instruction:
-{prompt}
+# formatted = f"""### Instruction:
+# {prompt}
 
-### Input:
+# ### Input:
 
-### Response:"""
-print(formatted)
+# ### Response:
+# """
+# print('2', formatted)
+formatted = prompt
 inputs = tokenizer(formatted, return_tensors="pt", padding=False, truncation=False).to("cuda")
 
 
@@ -26,19 +28,18 @@ with torch.no_grad():
     output = model.generate(
         input_ids=inputs.input_ids,
         attention_mask=inputs.attention_mask,
-        max_length=300,
+        max_new_tokens=150,
         do_sample=True,
-        temperature=0.8,
+        temperature=0.7,
         top_k=50,
-        top_p=0.95,
+        top_p=0.9,
         pad_token_id=tokenizer.eos_token_id,
-        eos_token_id=tokenizer.eos_token_id
     )
 
 # Decode
-print(output)
+print('output', output)
 generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-print(generated_text)
+print('generated text', generated_text)
 
 # Output folder
 output_dir = "generated_text"

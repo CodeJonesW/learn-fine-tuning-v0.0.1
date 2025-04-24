@@ -294,6 +294,8 @@ Why is Atticus Finch considered an iconic literary figure?
 ### Response:
 Atticus Finch is widely regarded as a symbol of moral integrity and quiet courage. He’s often ranked among the greatest fictional heroes.
 
+---
+
 ### Instruction:
 What are the main characters' names and where are they from?
 
@@ -314,3 +316,141 @@ The main characters in *To Kill a Mockingbird* include:
 They all live in **Maycomb, Alabama**, a fictional town based on Harper Lee's hometown of Monroeville.
 
 ---
+
+### Instruction:
+What does the mockingbird symbolize in *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+The mockingbird symbolizes innocence and the idea that it's a sin to harm those who do no wrong. Characters like Tom Robinson and Boo Radley are metaphorical mockingbirds.
+
+---
+
+### Instruction:
+Is the mockingbird a real character in the book?
+
+### Input:
+
+### Response:
+No, the mockingbird is not a real character. It is a metaphor for innocence, used to highlight the harm done to good people like Tom Robinson and Boo Radley.
+
+---
+
+### Instruction:
+Who is Boo Radley?
+
+### Input:
+
+### Response:
+Boo Radley, whose real name is Arthur Radley, is a reclusive neighbor who fascinates Scout and Jem. Though he is the subject of local rumors, he ultimately proves to be kind and protective.
+
+---
+
+### Instruction:
+What is Scout's real name?
+
+### Input:
+
+### Response:
+Scout’s real name is Jean Louise Finch. She is the narrator and protagonist of the novel.
+
+---
+
+### Instruction:
+What is Atticus Finch known for?
+
+### Input:
+
+### Response:
+Atticus Finch is known for his strong moral compass and commitment to justice. He defends Tom Robinson in court and teaches his children empathy and integrity.
+
+---
+
+### Instruction:
+Who is Tom Robinson?
+
+### Input:
+
+### Response:
+Tom Robinson is a Black man falsely accused of raping a white woman, Mayella Ewell. He is defended by Atticus Finch and becomes a symbol of racial injustice.
+
+---
+
+### Instruction:
+Why is it considered a sin to kill a mockingbird?
+
+### Input:
+
+### Response:
+According to Atticus and Miss Maudie, mockingbirds do nothing but make music and bring joy. Hurting them is wrong — a metaphor for harming innocent people.
+
+---
+
+### Instruction:
+What are the major themes in *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+The novel explores themes such as racial injustice, moral growth, empathy, courage, and the loss of innocence.
+
+---
+
+### Instruction:
+Who narrates the story?
+
+### Input:
+
+### Response:
+The story is narrated by Jean Louise Finch, also known as Scout. She tells the story as an adult looking back on her childhood.
+
+---
+
+### Instruction:
+Is *To Kill a Mockingbird* based on real events?
+
+### Input:
+
+### Response:
+While the story is fictional, it was inspired by real events in Harper Lee’s hometown of Monroeville, Alabama. Her father, a lawyer, served as the model for Atticus Finch.
+
+---
+
+### Instruction:
+Describe the character Tom Robinson in *To Kill a Mockingbird*.
+
+### Input:
+
+### Response:
+Tom Robinson is a Black man accused of raping a white woman, Mayella Ewell. He is defended by Atticus Finch and becomes a powerful symbol of racial injustice in the story.
+
+---
+
+### Instruction:
+Who is Tom Robinson?
+
+### Input:
+
+### Response:
+Tom Robinson is a fictional character in *To Kill a Mockingbird*. He is a Black man falsely accused of assaulting Mayella Ewell, and represents the theme of racial injustice in the novel.
+
+---
+
+### Instruction:
+What happens to Tom Robinson in the novel?
+
+### Input:
+
+### Response:
+Tom Robinson is wrongly convicted despite strong evidence of his innocence. Later, he is shot and killed while trying to escape prison.
+
+---
+
+### Instruction:
+What is Tom Robinson's role in *To Kill a Mockingbird*?
+
+### Input:
+
+### Response:
+Tom Robinson is the man on trial for a crime he didn’t commit. His trial and tragic fate highlight the deep racial prejudice of the time.

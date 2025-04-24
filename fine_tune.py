@@ -3,34 +3,36 @@ from datasets import Dataset
 import torch
 import os
 
-# Load and structure dataset
 def load_instruction_dataset(path):
     with open(path, 'r', encoding='utf-8') as f:
         raw_text = f.read()
 
+    # Split on '---' blocks
     samples = [sample.strip() for sample in raw_text.split('---') if sample.strip()]
     formatted = []
 
     for s in samples:
-        # Split into instruction/input/response
-        lines = s.strip().split("###")
-        instruction, input_text, response = "", "", ""
+        # Use raw string split and cleanup
+        instruction = input_text = response = ""
+        for section in s.split("###"):
+            if section.strip().startswith("Instruction:"):
+                instruction = section.strip().replace("Instruction:", "").strip()
+            elif section.strip().startswith("Input:"):
+                input_text = section.strip().replace("Input:", "").strip()
+            elif section.strip().startswith("Response:"):
+                response = section.strip().replace("Response:", "").strip()
 
-        for line in lines:
-            if line.startswith("Instruction:"):
-                instruction = line.replace("Instruction:", "").strip()
-            elif line.startswith("Input:"):
-                input_text = line.replace("Input:", "").strip()
-            elif line.startswith("Response:"):
-                response = line.replace("Response:", "").strip()
-
-        full_prompt = f"### Instruction:\n{instruction}\n\n### Input:\n{input_text}\n\n### Response:\n{response}"
-        formatted.append({"text": full_prompt})
+        # Only include examples with a valid response
+        if response:
+            full_prompt = f"### Instruction:\n{instruction}\n\n### Input:\n{input_text}\n\n### Response:\n{response}"
+            formatted.append({"text": full_prompt})
 
     return Dataset.from_list(formatted)
 
+
 # Load dataset
-dataset = load_instruction_dataset("./training-data/tkam_finetune_dataset.txt")
+dataset = load_instruction_dataset("training-data/tkam_finetune_dataset.txt")
+print('loading dataset', dataset)
 
 # Load GPT-2 and tokenizer
 model = GPT2LMHeadModel.from_pretrained("gpt2")
@@ -47,6 +49,10 @@ def tokenize(example):
 
 tokenized = dataset.map(tokenize)
 tokenized.set_format(type="torch", columns=["input_ids", "attention_mask", "labels"])
+
+print("🔍 Sample tokenized text:")
+print(tokenized[0])
+print(tokenizer.decode(tokenized[0]["input_ids"]))
 
 # Training config
 training_args = TrainingArguments(
